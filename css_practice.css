@@ -1,0 +1,18 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10;
+    padding: 10;
+}
+
+.container{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
+.heading2{
+    color: darkblue;
+    font-style: italic;
+    align-items: center;
+}
