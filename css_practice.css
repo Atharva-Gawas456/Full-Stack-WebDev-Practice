@@ -1,18 +1,58 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Google Sans Flex", sans-serif;
     margin: 10;
     padding: 10;
+    background-color: #080708;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    color: #3772FF;
+    text-decoration: none;
+}
+nav ul li a {
+    color: #3772FF;
+    text-decoration: none;
+}
+nav ul li a:visited {
+    color: #3772FF;
+    text-decoration: none;
+}
 .container{
     border: 2px solid black;
     padding: 20px;
     margin: 20px;
-    background-color: lightgrey;
+    background-color:#080708;
+}
+.heading1{
+    color: #DF2935;
+    font-weight: bold;
+    font-size: 60px;
+    align-items: center;
 }
 
 .heading2{
-    color: darkblue;
-    font-style: italic;
+    color: #FDCA40;
+    font-weight: bold;
+    font-size: 40px;
     align-items: center;
+}
+.normal-text{
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
 }
