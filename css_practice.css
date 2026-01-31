@@ -57,6 +57,26 @@ nav ul li a:visited {
     line-height: 1.6;
     text-align: justify;
 }
+.image-edits{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.image-edits img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #3772FF;
+    box-shadow: 0 8px 32px rgba(55, 114, 255, 0.2);
+}
+.image-edits p{
+    color: white;
+    font-size: 30px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 20px;
+}
+
 
 .form-container {
     max-width: 500px;
@@ -68,14 +88,37 @@ nav ul li a:visited {
     box-shadow: 0 8px 32px rgba(55, 114, 255, 0.2);
 }
 
-form label{
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between label and input */
+}
+
+.form-group label {
+  width: 100px; /* fixed width for label */
+}
+
+.form-group input {
+  flex: 1; /* input takes remaining space */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     color: white;
     font-size: 20px;
     line-height: 1.6;
     text-align: justify;
 }
-
-form input{
+form label input {
+    flex: 1;
+    margin: 0;
     width: 100%;
     padding: 10px;
     margin: 10px 0 20px 0;
@@ -85,6 +128,19 @@ form input{
     color: white;
     font-size: 16px;
 }
+form label span {
+    flex: 0 0 120px;
+}
+form select{
+    width: fit-content;
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+
 
 .form-button {
     background: linear-gradient(135deg, #3772FF 0%, #DF2935 100%);

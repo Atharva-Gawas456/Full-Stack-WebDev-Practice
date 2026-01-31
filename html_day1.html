@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_practice.css">
     <title>HTML Day 1</title>
-    
+
 </head>
 
 <body>
     <header>
         <nav aria-label="Navigation">
-            <a href="html_day1.html"><img src="ai-generated-8775233_1920.png" alt="Atharva Code Academy Logo" width="100" height="100" class="logo"></a>
-            
+            <a href="html_day1.html"><img src="ai-generated-8775233_1920.png" alt="Atharva Code Academy Logo"
+                    width="100" height="100" class="logo"></a>
+
             <h1 class="heading1">Atharva Code Academy</h1>
             <ul>
                 <li><a href="html_day2.html">Courses</a></li>
@@ -28,7 +29,8 @@
         <section id="courses">
             <article class="box">
                 <h2 class="heading2">HTML Day 1</h2>
-                <p class="normal-text">If you are reading this, I am Atharva Sunil Gawas from the past who was extremely weak in Web
+                <p class="normal-text">If you are reading this, I am Atharva Sunil Gawas from the past who was extremely
+                    weak in Web
                     Development. But I know for sure that at present, I have become better than the moment I am writing
                     this.</p>
 
@@ -41,33 +43,52 @@
 
             <article class="box">
                 <h2 class="heading2">About Me</h2>
-                <p class="normal-text">I am a B.Tech student in Computer Science and Engineering.</p>
+                <div class="image-edits">
+                    <img src="software-developer-6521720_1280.jpg" alt="Atharva Sunil Gawas">
+                    <p class="">I am a B.Tech student in Computer Science and Engineering.</p>
+                </div>
+
             </article>
 
             <aside>
-                <p class="normal-text">I hope this GitHub repository helps you on your journey to becoming a full-stack developer!</p>
+                <p class="normal-text">I hope this GitHub repository helps you on your journey to becoming a full-stack
+                    developer!</p>
             </aside>
         </section>
         <section>
             <form class="form-container">
-                
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
 
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required><br><br>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required><br><br>
+                </div>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required><br><br>
+                <div class="form-group">
 
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="gender">
-                <label for="female">Female</label>
-                <input type="radio" id="female" name="gender">
-                <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
 
-                <label for="DOB">Date of Birth:</label>
-                <input type="date" id="DOB" name="DOB" required><br><br>
+                </div>
+                <div class="form-group">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender">
+                    <br><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="DOB">DOB:</label>
+                    <input type="date" id="DOB" name="DOB" required><br><br>
+                </div>
 
                 <label for="hobby">Hobbies</label><br>
                 <input type="checkbox" name="hobby" id="hobby1">
@@ -78,14 +99,17 @@
                 <label for="hobby3">Sports</label>
                 <br><br>
 
-                <label for="">Choose your City</label>
-                <select name="city" id="city">
-                    <option value="">Mumbai</option>
-                    <option value="">Pune</option>
-                    <option value="">Chennai</option>
-                    <option value="">Kolkata</option>
-                    <option value="">Bangalore</option>
-                </select>
+                <div class="form-group">
+                    <label for="">City</label>
+                    <select name="city" id="city">
+                        <option value="">Mumbai</option>
+                        <option value="">Pune</option>
+                        <option value="">Chennai</option>
+                        <option value="">Kolkata</option>
+                        <option value="">Bangalore</option>
+                    </select>
+                </div>
+
                 <br>
                 <br>
 
